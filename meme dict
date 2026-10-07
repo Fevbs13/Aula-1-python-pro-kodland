@@ -1,0 +1,18 @@
+meme_dict = {
+            "CRINGE": "Algo vergonhoso ou constrangedor",
+            "STALKEAR": "Investigar a vida de alguém online",
+            'VDD' : 'abreviação da palavra "verdade"',
+            'HATER' : 'pessoa que está constantemente criticando os outros',
+            'VLW' : 'abreviação da palavra "valeu"'
+            }
+
+while True:
+    word = input("Digite uma palavra moderna que você não entende (escreva toda a palavra em letras maiúsculas): ")
+
+
+    if word in meme_dict.keys():
+        print(word, 'significa:', meme_dict[word])
+        print(' ')
+    else:
+        print('está palavra não foi encontrada')
+        print(' ')
